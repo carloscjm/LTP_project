@@ -1,0 +1,35 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+
+csv:
+  path: /csv/{what}/{who}
+  controller: App\Controller\CsvReader::index
+  defaults:
+    what: 'Enthousiasm'
+    who: 1
+
+lowest:
+  path: /lowest/{what}
+  controller: App\Controller\Lowest::index
+  defaults:
+    what: 'Enthousiasm'
+
+highest:
+  path: /highest/{what}
+  controller: App\Controller\Highest::index
+  defaults:
+    what: 'Enthousiasm'
+
+average:
+  path: /average/{what}
+  controller: App\Controller\Average::index
+  defaults:
+    what: 'Enthousiasm'
+
+type:
+  path: /type/{what}
+  controller: App\Controller\Type::index
+  defaults:
+    what: 'Enthousiasm'
