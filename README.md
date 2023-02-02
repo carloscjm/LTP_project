@@ -1,7 +1,7 @@
-Antes da execução, as dependencias do synfony devem ser instaladas, um dos metod é utilizando o composer
+Antes da execução, as dependencias do synfony devem ser instaladas, um dos metod é utilizando o composer<br>
     -composer install;
 
-Before running, the symfony dependencies must be installed, one of the methods is using composer
+Before running, the symfony dependencies must be installed, one of the methods is using composer<br>
     -composer install;
 
 O programa pode ser executado de duas formas: <br>
